@@ -333,6 +333,6 @@ OutputVPNEndpoint = t.add_resource(
 )
 
 ## -- Print Template
-f1 = open('../' + (os.path.splitext(os.path.basename(__file__))[0]) + '.json', 'w+')
+f1 = open('./' + (os.path.splitext(os.path.basename(__file__))[0]) + '.json', 'w+')
 print(t.to_json(), file=f1)
 print(t.to_json())

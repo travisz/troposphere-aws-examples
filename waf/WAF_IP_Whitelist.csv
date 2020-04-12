@@ -1,0 +1,2 @@
+"domain","Cidr","Description"
+AWSWAF,0.0.0.0/0,"Allow All"
